@@ -40,3 +40,10 @@ button:active{
   justify-content: space-around;
   gap: 10px;
 }
+
+.output-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
