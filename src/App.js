@@ -36,6 +36,12 @@ function App() {
            value={size} onChange={(e) => 
            {setSize(e.target.value)}} />
         </div>
+        <div className="output-box">
+        <img src={qrCode} alt="" />
+        <a href={qrCode} download="QRCode">
+          <button type="button">Download</button>
+        </a>
+      </div>
       </div>
     </div>
 
