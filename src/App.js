@@ -27,7 +27,15 @@ function App() {
             <button className="button"
             onclick={handleClick}>Generate QR Code</button>
       </div>
-
+      <div className="extra">
+          <h5>Background Color:</h5>
+          <input type="color" onChange={(e) => 
+          { setBgColor(e.target.value.substring(1)) }} />
+          <h5>Dimension:</h5>
+          <input type="range" min="200" max="600"
+           value={size} onChange={(e) => 
+           {setSize(e.target.value)}} />
+        </div>
       </div>
     </div>
 
