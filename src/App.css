@@ -18,3 +18,15 @@ h1{
   font-size: 20px;
   padding-left: 5px;
 }
+button{
+  position: relative;
+  height: 38px;
+  width: 100px;
+  top: -2px;
+  font-size: 18px;
+  border: none;
+  color: whitesmoke;
+  background-color: forestgreen;
+  box-shadow: 2px 2px 5px rgb(74, 182, 74);
+  cursor: pointer;
+}
