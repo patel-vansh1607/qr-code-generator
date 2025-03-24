@@ -1,5 +1,4 @@
 @import url('http://fonts.cdnfonts.com/css/lilly');
-
 .App{
   display: flex;
   flex-direction: column;
@@ -33,14 +32,12 @@ button{
 button:active{
   box-shadow: none;
 }
-
 .extra{
   padding-top: 20px;
   display: flex;
   justify-content: space-around;
   gap: 10px;
 }
-
 .output-box{
   display: flex;
   flex-direction: column;
