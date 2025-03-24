@@ -30,3 +30,6 @@ button{
   box-shadow: 2px 2px 5px rgb(74, 182, 74);
   cursor: pointer;
 }
+button:active{
+  box-shadow: none;
+}
