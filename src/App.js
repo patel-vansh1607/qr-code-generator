@@ -17,7 +17,17 @@ function App() {
     setWord(temp);
   }
   return (
-    
+    <div className="App">
+      <h1>QR Code Generator</h1>
+      <div className="inputbox">
+      <div className="gen">
+      <input type="text" onChange={
+            (e) => {setTemp(e.target.value)}}
+            placeholder="Enter text to encode" />
+      </div>
+
+      </div>
+    </div>
 
   );
 }
