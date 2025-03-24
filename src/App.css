@@ -33,3 +33,10 @@ button{
 button:active{
   box-shadow: none;
 }
+
+.extra{
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
