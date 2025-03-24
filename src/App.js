@@ -24,6 +24,8 @@ function App() {
       <input type="text" onChange={
             (e) => {setTemp(e.target.value)}}
             placeholder="Enter text to encode" />
+            <button className="button"
+            onclick={handleClick}>Generate QR Code</button>
       </div>
 
       </div>
