@@ -12,3 +12,9 @@ h1{
   font-family: 'Lilly', sans-serif;
   font-size: 50px;
 }
+.gen input{
+  height: 35px;
+  width: 250px;
+  font-size: 20px;
+  padding-left: 5px;
+}
